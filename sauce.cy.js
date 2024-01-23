@@ -93,8 +93,8 @@ describe("Сайт", () => {
         .get('button').contains('Cancel').click()
 
     // Выход
-    // .get("#react-burger-menu-btn").click()
-    // .get("#logout_sidebar_link.bm-item.menu-item").click()
+     .get("#react-burger-menu-btn").click()
+     .get("#logout_sidebar_link.bm-item.menu-item").click()
   })
 
   it("Проверка на пустую корзину (заказа не должно быть)", () => {
